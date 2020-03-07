@@ -33,7 +33,7 @@ export class TickerController {
   @ApiBadRequestResponse()
   @Get(':symbol')
   getTicker(@Param() params: SymbolRequestDto): Array<number> {
-    log.debug(params);
+    // log.debug(params);
 
     return [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0];
   }

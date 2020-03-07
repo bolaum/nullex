@@ -8,7 +8,7 @@ import {
 } from '@nestjs/common';
 import { ApiOkResponse, ApiOperation } from '@nestjs/swagger';
 
-import { SymbolRequestDto, EmptyRequestDto } from 'src/common/requests.dto';
+import { SymbolRequestDto, EmptyRequestDto } from '../common/requests.dto';
 import { SubmitOrderDto, UpdateOrderDto, CancelOrderDto } from './orders.dto';
 
 const log = new Logger('Controller:Orders');

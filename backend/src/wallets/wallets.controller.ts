@@ -6,7 +6,7 @@ import {
   ApiBody,
 } from '@nestjs/swagger';
 
-import { EmptyRequestDto } from 'src/common/requests.dto';
+import { EmptyRequestDto } from '../common/requests.dto';
 
 const log = new Logger('Controller:Wallets');
 
